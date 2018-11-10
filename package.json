@@ -1,0 +1,38 @@
+{
+  "name": "storybooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidcsally/storybooks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidcsally/storybooks/issues"
+  },
+  "homepage": "https://github.com/davidcsally/storybooks#readme",
+  "dependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "styled-components": "^4.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@storybook/addon-a11y": "^4.0.4",
+    "@storybook/addon-actions": "^4.0.4",
+    "@storybook/addon-links": "^4.0.4",
+    "@storybook/addon-viewport": "^4.0.4",
+    "@storybook/addons": "^4.0.4",
+    "@storybook/react": "^4.0.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.4",
+    "typescript": "^3.1.6"
+  }
+}
